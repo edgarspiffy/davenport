@@ -1,0 +1,151 @@
+/* 
+Theme Name: Sample
+Author: Sample
+Version: 1
+ */
+@import url("https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Roboto:wght@300&family=Saira+Extra+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+.number-font {
+  font-family: "Saira Extra Condensed", sans-serif; }
+
+body p, html p {
+  line-height: 27px;
+  letter-spacing: 0;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #333; }
+
+body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3, html h4, html h5, html h6 {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  line-height: 35px;
+  padding-bottom: 1rem; }
+
+.my-btn {
+  background: #3A8860;
+  border-radius: 5px;
+  color: white; }
+  .my-btn:hover {
+    background-color: #2E6C4C;
+    color: white; }
+
+.topbar {
+  background-color: #292E33; }
+  .topbar a {
+    color: white; }
+
+nav {
+  background-color: white; }
+  nav .navbar-brand img {
+    height: 130px; }
+  nav ul li a {
+    font-family: "Raleway", sans-serif;
+    color: #3A8860;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transition: all .2s ease; }
+    nav ul li a:hover {
+      color: #292E33;
+      border-bottom: 3px solid #292E33;
+      border-radius: 3px; }
+
+.my-quote p {
+  font-style: italic;
+  font-size: 20px; }
+
+.my-italic {
+  font-style: italic; }
+
+.my-bg-primary {
+  background-color: #3A8860; }
+
+.my-bg-secondary {
+  background-color: #3A6288; }
+
+.my-bg-tertiary {
+  background-color: #883A75; }
+
+.gavel {
+  color: #3A8860;
+  border-bottom: 2px solid #3A8860;
+  padding: .4rem !important;
+  border-top: 2px solid #3A8860; }
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; }
+
+.title {
+  font-family: "Gravitas One", cursive;
+  font-size: 16px;
+  color: white; }
+
+.title-number {
+  font-family: "Gravitas One", cursive;
+  font-size: 80px;
+  color: black; }
+
+.number-bg {
+  background-image: url("../images/numbers-bg.jpg");
+  height: 100%;
+  background-size: cover; }
+
+.hovenow {
+  background-color: #3A6288;
+  transition: all .4s; }
+
+.hovenow:hover {
+  background-color: black; }
+
+.numbers-bar {
+  color: white; }
+  .numbers-bar p {
+    color: white; }
+  .numbers-bar a {
+    color: white;
+    transition: all .2s; }
+    .numbers-bar a:hover {
+      font-size: 18px; }
+
+@media only screen and (max-width: 768px) {
+  body .number-content {
+    border-top: 1px solid white; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-size: 30px; }
+  body nav .navbar-brand img {
+    height: 90px; }
+  body .title {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 23px; }
+  body .title-number {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 160px; } }
+
+.bg-image {
+  background-image: url("images/sky1.png");
+  background-size: cover;
+  background-position: center top; }
+
+.bg-image2 {
+  background-image: url("images/bg-white.jpg");
+  background-size: cover;
+  background-position: center top; }
+
+.bg-image3 {
+  background-image: url("images/test2.png");
+  background-size: cover;
+  background-position: center top; }
+
+.img-copy h3 {
+  text-shadow: 0 4px 4px rgba(255, 255, 255, 0.4); }
+
+footer {
+  background-color: #292E33; }
