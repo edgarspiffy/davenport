@@ -152,3 +152,15 @@ nav {
 
 footer {
   background-color: #292E33; }
+  footer p {
+    color: white; }
+
+h3.victim {
+  background-color: #3A8860;
+  padding: 1rem;
+  color: white; }
+
+.overlay {
+  background-color: black !important;
+  height: 100%;
+  width: 100%; }

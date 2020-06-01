@@ -46,15 +46,21 @@
 
 
 
-
+<div>
+  <h3 class='my-italic victim text-center text-md-left'>I've been a victim of...</h3>
+</div>
   <div class="container-fluid text-center img-copy">
     <div class="row">
   
       <div class="col-md-4">
+        <div class="overlay">
         <div style='height:500px;' class="row align-items-center bg-image">
+        
           <div class="col">
             <h3>Harassment</h3>
           </div>
+  
+        </div>
         </div>
       </div>
       <div class="col-md-4">
