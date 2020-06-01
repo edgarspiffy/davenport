@@ -17,6 +17,9 @@ Version: 1
 .number-font {
   font-family: "Saira Extra Condensed", sans-serif; }
 
+footer p {
+  color: white; }
+
 body p, html p {
   line-height: 27px;
   letter-spacing: 0;

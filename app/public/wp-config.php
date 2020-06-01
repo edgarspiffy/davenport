@@ -29,9 +29,9 @@ if (file_exists(dirname(__FILE__) . '/local.php')){
 
 }else{
 	//LIVE DATABSE SETTINGS
-	define( 'DB_NAME', 'roundeco_WPOZQ' );
-	define( 'DB_USER', 'roundeco_WPOZQ' );
-	define( 'DB_PASSWORD', 'h6?F1D3kVYB&' );
+	define( 'DB_NAME', 'roundeco_daven' );
+	define( 'DB_USER', 'roundeco_davenport' );
+	define( 'DB_PASSWORD', ';=p-m@xQnppq' );
 	define( 'DB_HOST', 'localhost' );
 }
 

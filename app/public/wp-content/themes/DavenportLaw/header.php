@@ -9,7 +9,7 @@
 <body  <?php body_class()?>>
 
   <div class="topbar py-2 text-center text-md-right">
-    <a class='px-3' href="">CONTACT: 805.000.00000</a>
+    <a class='px-3' href="">CONTACT: 888.888.8888</a>
   </div>
 
 

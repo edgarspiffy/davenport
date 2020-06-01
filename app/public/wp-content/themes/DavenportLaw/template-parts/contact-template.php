@@ -5,10 +5,10 @@
     <div style='background:url("images/bg-line3.png");'>
       <div class="container">
         <div style='min-height: 40vh;' class="row align-items-center text-center">
-          <div class="col-md-4 text-center text-white">
+          <div class="col-md-4 col-12 text-center text-white">
             <h3>Request a free consultation</h3>
           </div>
-          <div class="col-8 ml-auto">
+          <div class="col-md-8 col-12 ml-auto">
             <form>
               <div class="form-row">
                 <div class="col">
