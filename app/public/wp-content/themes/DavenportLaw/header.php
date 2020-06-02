@@ -9,7 +9,7 @@
 <body  <?php body_class()?>>
 
   <div class="topbar py-2 text-center text-md-right">
-    <a class='px-3' href="">CONTACT: 888.888.8888</a>
+    <a class='px-3' href="">Give Ashley a Call (310) 504-3989</a>
   </div>
 
 
@@ -32,20 +32,23 @@
           <a class="nav-link px-3" href="<?php echo site_url();?>">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3" href="<?php echo site_url('/about');?>">ABOUT</a>
+          <a class="nav-link px-3" href="<?php echo site_url('/ashley-davenport-attorney-at-law');?>">ABOUT</a>
         </li>
 
         <li class="nav-item dropdown">
            <a class="px-3 nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">SERVICES </a>
-              <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-      </div>
+          
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="<?php echo site_url('/services/discrimination');?>">Discrimination</a>
+            <a class="dropdown-item" href="<?php echo site_url('/services/harassment');?>">Harassment</a>
+            <a class="dropdown-item" href="<?php echo site_url('/services/retaliation');?>">Retaliation</a>
+            <a class="dropdown-item" href="<?php echo site_url('services/unlawful-wage-and-hour-practices');?>">Unlawful Wages</a>
+          </div>
+
         </li>
 
         <li class="nav-item">
-          <a class="nav-link px-3" href="<?php echo site_url('/results');?>">RESULTS</a>
+          <a class="nav-link px-3" href="<?php echo site_url('/client-results');?>">CLIENT RESULTS</a>
         </li>
       </ul>
     </div>
