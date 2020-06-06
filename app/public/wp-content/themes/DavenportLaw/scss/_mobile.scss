@@ -1,0 +1,27 @@
+
+@media only screen and (max-width: 768px) {
+  body {
+    .number-content {
+      border-top:1px solid white;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      font-size:30px;
+    }
+    nav {
+      .navbar-brand img {
+      height:90px;
+      }
+    }
+
+    .title {
+      font-family:$numbers-font;
+      font-size:23px;
+
+    }
+    .title-number {
+    font-family:$numbers-font;
+    font-size:160px;
+
+    }
+  }
+}

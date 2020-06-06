@@ -61,3 +61,14 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\index.php on line 1
+[05-Jun-2020 16:40:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_template_part() in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\footer.php:18
+Stack trace:
+#0 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template.php(723): require_once()
+#1 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template.php(672): load_template('C:\\Users\\Edgar\\...', true)
+#2 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\front-page.php(167): get_footer()
+#4 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Edgar\\...')
+#5 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Edgar\\...')
+#6 C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php(17): require('C:\\Users\\Edgar\\...')
+#7 {main}
+  thrown in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\footer.php on line 18

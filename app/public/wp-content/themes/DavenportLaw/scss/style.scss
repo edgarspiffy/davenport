@@ -3,14 +3,22 @@ Theme Name: Sample
 Author: Sample
 Version: 1
  */
+ $soft:#ededed;
+ $content-gray:#E5E8EE;
+
+ 
+
 @import "variables";
-@import "numbers";
-$gray:#292E33;
-$primary-dark:#2E6C4C;
+
+@import "nav";
+@import "utilities";
+
+
+
 // GENERAL
 body,html {
 p {
-  line-height: 27px;
+  line-height: 30px;
   letter-spacing:0;
   font-size:18px;
   font-family: $open-sans;
@@ -21,127 +29,84 @@ p {
   h1,h2,h3,h4,h5,h6 {
     font-family: $dm;
     font-size:40px;
-    line-height: 35px;
+    line-height: 44px;
     padding-bottom:1rem;
+    letter-spacing: 1px;
   }
 }
 
+.my-header {
+  .overlay {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,.5); 
+  }
 
-.my-btn {
-  background:$primary;
-  border-radius: 5px;
-  color:white;
-  &:hover {
-    background-color:$primary-dark;  
+    h1, p{
+      color:$white;
+      text-shadow: 0 1px 2px rgba(0,0,0,.2);
+    }
+}
+
+// NUMBERS
+.number-round {
+  .overlay {
+    height:100%;
+    width:100%;
+    background-color: rgba($gray,.9); 
+  }
+
+  h3 {
+    background:rgba($primary,.6);
+    padding:3rem 3rem;
+    border-radius: 50%;
+    background-size:50px;
+    color:white;
+    }
+
+  p {
     color:white;
   }
-}
-// NAV
-.topbar {
-  background-color:$gray;
-  a {
-    color:white;
+  img {
+    height:75px;
+    padding-bottom:10px;
   }
 }
 
-nav {
-  background-color: white;
-  .navbar-brand img {
-    height:130px;
-  }
-  ul li a{
-    font-family: $raleway;
-    color:$primary;
-    font-weight:700;
-    font-size:1.4rem;
-    transition:all .2s ease;
-      &:hover {
-       color:$gray;
-       border-bottom:3px solid $gray;
-       border-radius: 3px;
-     
-      }
-  }
+.my-bg-gray-2 {
+   background-color: $content-gray;
+   h1,h2,h3,h4,h5,h6 {
+     color:$primary;
+   }
+ }
+
+
+
+.background {
+  background: url('images/main-bg-m.jpg');
+  width:100%;
+  background-size: cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+
+}
+
+.background-2 {
+   background: url('images/city.jpg');
+  width:100%;
+  background-size: cover;
+  background-position:center top;
+  background-repeat: no-repeat;
 }
 
 
-.my-quote p {
-  font-style: italic;
-  font-size:20px;
-}
 
 
-.my-italic {
-  font-style: italic;
-}
-.my-bg-primary {
-  background-color: $primary;
-}
-.my-bg-secondary {
-  background-color:$secondary;
-}
-.my-bg-tertiary {
-  background-color: $purple;
-}
 
-.gavel {
-  color:$primary;
-  border-bottom:2px solid $primary;
-  padding:.4rem !important;
-  border-top:2px solid $primary;
-}
+
 
 .shadow-lg {
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
-}
-
-
-
-
-.title {
-  font-family:$header-font;
-  font-size:16px;
-  color:white;
-}
-.title-number {
- font-family:$header-font;
- font-size:80px;
- color:black;
-//  margin-top:-50px;
-}
-.number-bg {
-  background-image: url('../images/numbers-bg.jpg');
-  height: 100%;
-  // width:100%;
-  background-size: cover;
-}
-
-
-.hovenow {
-
-  background-color: $secondary;
-    transition: all .4s;
-}
-.hovenow:hover {
-  background-color: black;
-}
-
-
-
-
-
-.numbers-bar {
-  color:white;
-  p {
-    color:white;
-  }
-  a {
-    color:white;
-    transition:all .2s;
-    &:hover {
-      font-size:18px;
-    }
-  }
+    box-shadow: 0 1rem 3rem rgba(80,80,80,.1)!important;
 }
 
 
@@ -153,78 +118,94 @@ nav {
 
 
 
-
-@media only screen and (max-width: 768px) {
-  body {
-    .number-content {
-      border-top:1px solid white;
-    }
-    h1,h2,h3,h4,h5,h6 {
-      font-size:30px;
-    }
-    nav {
-      .navbar-brand img {
-      height:90px;
-      }
-    }
-
-    .title {
-      font-family:$numbers-font;
-      font-size:23px;
-
-    }
-    .title-number {
-    font-family:$numbers-font;
-    font-size:160px;
-
-    }
-  }
-}
 
 .bg-image {
-  background-image: url('images/sky1.png');
   background-size: cover;
   background-position:center top;
-}
+  transition:all .6s ease-in-out;
 
-.bg-image2 {
-  background-image: url('images/bg-white.jpg');
-  background-size: cover;
-  background-position:center top;
-}
-
-.bg-image3 {
-  background-image: url('images/test2.png');
-  background-size: cover;
-  background-position:center top;
-}
-
-.img-copy h3 {
-  text-shadow:0 4px 4px rgba(255,255,255,.40);
-}
-
-footer {
-  background-color:$gray;
-  p {
-color:white;
+  &-left {
+    background-image: url('images/categories/left-statue.png');
+    background-position:center bottom;
+  }
+  &-center {
+    background-image: url('images/categories/worker-blue-2.jpg');
+  }
+  &-right {
+     background-image: url('images/categories/bg-white.jpg');
+  }
+  &-worker-left{
+     background-image: url('images/categories/worker-blue.jpg');
+  }
+   &-worker-center{
+     background-image: url('images/categories/gavil.png');
+     background-position:center center;
+  }
+   &-worker-right{
+     background-image: url('images/categories/worker-white.jpg');
+  }
+  h3 {
+    color:$white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.09);
+  }
+  .overlay {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.2); 
+    transition:all .2s ease-in-out;
+    &:hover {
+      background-color:rgba($primary,.9); 
+    }
   }
 
 }
 
-h3.victim {
-  background-color: $primary;
-  padding:1rem;
-  color:white;
+
+
+
+.footer-top {
+  form input, form textarea {
+    background-color:$light-gray;
+  }
+
+  h4 {
+    color:$white;
+    font-size:30px;
+  }
+
+  ul {
+    list-style: none;
+    li {
+      padding-bottom: 1rem;
+      color:$white;
+    }
+    i {
+      font-size:1.5rem;
+    }
+  }
+
+  .disclaimer {
+
+    h4 {
+      font-size:16px;
+      padding-bottom:5px;
+      margin-bottom:5px;
+      color:$soft;
+      font-family: $open-sans;
+    }
+
+    p {
+      color:$soft;
+      font-size:12px;
+      line-height: 14px;
+    }
+
+  .left-border {
+      border-left:1px solid $soft;
+    }
+  }
 }
 
-// .bg-image:hover{
-//   background-color:black;
-//   height:100%;
-//   width:100%;
-// }
 
-.overlay{
-  background-color: black !important;
-  height:100%;
-  width:100%;
-}
+
+@import "mobile";

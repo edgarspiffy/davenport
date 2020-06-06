@@ -1,7 +1,8 @@
 
 
 
-<div class="container-fluid text-center my-bg-primary numbers-bar">
+<div class="container-fluid text-center numbers-bar background-2 p-0">
+  <div class="overlay2">
   <div style='min-height:15vh;' class="row align-items-center">
 
     <div class="col-md-2 my-italic py-2">
@@ -36,6 +37,7 @@
     </div>
 
 
+  </div>
   </div>
 </div>
 

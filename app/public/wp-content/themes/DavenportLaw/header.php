@@ -17,7 +17,7 @@
     <!-- Brand -->
     
     <a class="navbar-brand" href="<?php echo site_url();?>">
-      <img src="<?php echo get_theme_file_uri('images/banner.jpeg') ?>" alt="logo">
+      <img src="<?php echo get_theme_file_uri('images/branding/banner.jpeg') ?>" alt="logo">
     </a>
 
     <!-- Toggler/collapsibe Button -->
@@ -52,8 +52,4 @@
         </li>
       </ul>
     </div>
-
-       <!-- <a class="navbar-brand" href="#">
-        <i class="fas fa-mobile"></i> CONTACT <br>805-999-9999
-       </a> -->
   </nav>

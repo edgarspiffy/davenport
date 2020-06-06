@@ -20,35 +20,13 @@ Version: 1
 footer p {
   color: white; }
 
-body p, html p {
-  line-height: 27px;
-  letter-spacing: 0;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  color: #333;
-  padding-right: 30px;
-  padding-bottom: 10px; }
-
-body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3, html h4, html h5, html h6 {
-  font-family: "DM Serif Display", serif;
-  font-size: 40px;
-  line-height: 35px;
-  padding-bottom: 1rem; }
-
-.my-btn {
-  background: #3A8860;
-  border-radius: 5px;
-  color: white; }
-  .my-btn:hover {
-    background-color: #2E6C4C;
-    color: white; }
-
 .topbar {
   background-color: #292E33; }
   .topbar a {
     color: white; }
 
 nav {
+  letter-spacing: 1px;
   background-color: white; }
   nav .navbar-brand img {
     height: 130px; }
@@ -63,9 +41,19 @@ nav {
       border-bottom: 3px solid #292E33;
       border-radius: 3px; }
 
-.my-quote p {
-  font-style: italic;
-  font-size: 20px; }
+.gavel {
+  color: #3A8860;
+  border-bottom: 2px solid #3A8860;
+  padding: .4rem !important;
+  border-top: 2px solid #3A8860; }
+
+.my-btn {
+  background: #3A8860;
+  border-radius: 5px;
+  color: white; }
+  .my-btn:hover {
+    background-color: #2E6C4C;
+    color: white; }
 
 .my-italic {
   font-style: italic; }
@@ -74,51 +62,138 @@ nav {
   background-color: #3A8860; }
 
 .my-bg-secondary {
-  background-color: #3A6288; }
+  background-color: #374550; }
 
 .my-bg-tertiary {
   background-color: #883A75; }
 
-.gavel {
-  color: #3A8860;
-  border-bottom: 2px solid #3A8860;
-  padding: .4rem !important;
-  border-top: 2px solid #3A8860; }
+.my-bg-gray {
+  background-color: #292E33; }
+
+body p, html p {
+  line-height: 30px;
+  letter-spacing: 0;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  padding-right: 30px;
+  padding-bottom: 10px; }
+
+body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3, html h4, html h5, html h6 {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  line-height: 44px;
+  padding-bottom: 1rem;
+  letter-spacing: 1px; }
+
+.my-header .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.my-header h1, .my-header p {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+
+.number-round .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(41, 46, 51, 0.9); }
+
+.number-round h3 {
+  background: rgba(58, 136, 96, 0.6);
+  padding: 3rem 3rem;
+  border-radius: 50%;
+  background-size: 50px;
+  color: white; }
+
+.number-round p {
+  color: white; }
+
+.number-round img {
+  height: 75px;
+  padding-bottom: 10px; }
+
+.my-bg-gray-2 {
+  background-color: #E5E8EE; }
+  .my-bg-gray-2 h1, .my-bg-gray-2 h2, .my-bg-gray-2 h3, .my-bg-gray-2 h4, .my-bg-gray-2 h5, .my-bg-gray-2 h6 {
+    color: #3A8860; }
+
+.background {
+  background: url("images/main-bg-m.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.background-2 {
+  background: url("images/city.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat; }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; }
+  box-shadow: 0 1rem 3rem rgba(80, 80, 80, 0.1) !important; }
 
-.title {
-  font-family: "Gravitas One", cursive;
-  font-size: 16px;
-  color: white; }
-
-.title-number {
-  font-family: "Gravitas One", cursive;
-  font-size: 80px;
-  color: black; }
-
-.number-bg {
-  background-image: url("../images/numbers-bg.jpg");
-  height: 100%;
-  background-size: cover; }
-
-.hovenow {
-  background-color: #3A6288;
-  transition: all .4s; }
-
-.hovenow:hover {
-  background-color: black; }
-
-.numbers-bar {
-  color: white; }
-  .numbers-bar p {
-    color: white; }
-  .numbers-bar a {
+.bg-image {
+  background-size: cover;
+  background-position: center top;
+  transition: all .6s ease-in-out; }
+  .bg-image-left {
+    background-image: url("images/categories/left-statue.png");
+    background-position: center bottom; }
+  .bg-image-center {
+    background-image: url("images/categories/worker-blue-2.jpg"); }
+  .bg-image-right {
+    background-image: url("images/categories/bg-white.jpg"); }
+  .bg-image-worker-left {
+    background-image: url("images/categories/worker-blue.jpg"); }
+  .bg-image-worker-center {
+    background-image: url("images/categories/gavil.png");
+    background-position: center center; }
+  .bg-image-worker-right {
+    background-image: url("images/categories/worker-white.jpg"); }
+  .bg-image h3 {
     color: white;
-    transition: all .2s; }
-    .numbers-bar a:hover {
-      font-size: 18px; }
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.09); }
+  .bg-image .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all .2s ease-in-out; }
+    .bg-image .overlay:hover {
+      background-color: rgba(58, 136, 96, 0.9); }
+
+.footer-top form input, .footer-top form textarea {
+  background-color: #B7B7B7; }
+
+.footer-top h4 {
+  color: white;
+  font-size: 30px; }
+
+.footer-top ul {
+  list-style: none; }
+  .footer-top ul li {
+    padding-bottom: 1rem;
+    color: white; }
+  .footer-top ul i {
+    font-size: 1.5rem; }
+
+.footer-top .disclaimer h4 {
+  font-size: 16px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  color: #ededed;
+  font-family: "Open Sans", sans-serif; }
+
+.footer-top .disclaimer p {
+  color: #ededed;
+  font-size: 12px;
+  line-height: 14px; }
+
+.footer-top .disclaimer .left-border {
+  border-left: 1px solid #ededed; }
 
 @media only screen and (max-width: 768px) {
   body .number-content {
@@ -133,36 +208,3 @@ nav {
   body .title-number {
     font-family: "Saira Extra Condensed", sans-serif;
     font-size: 160px; } }
-
-.bg-image {
-  background-image: url("images/sky1.png");
-  background-size: cover;
-  background-position: center top; }
-
-.bg-image2 {
-  background-image: url("images/bg-white.jpg");
-  background-size: cover;
-  background-position: center top; }
-
-.bg-image3 {
-  background-image: url("images/test2.png");
-  background-size: cover;
-  background-position: center top; }
-
-.img-copy h3 {
-  text-shadow: 0 4px 4px rgba(255, 255, 255, 0.4); }
-
-footer {
-  background-color: #292E33; }
-  footer p {
-    color: white; }
-
-h3.victim {
-  background-color: #3A8860;
-  padding: 1rem;
-  color: white; }
-
-.overlay {
-  background-color: black !important;
-  height: 100%;
-  width: 100%; }
