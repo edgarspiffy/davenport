@@ -72,3 +72,54 @@ Stack trace:
 #6 C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php(17): require('C:\\Users\\Edgar\\...')
 #7 {main}
   thrown in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\footer.php on line 18
+[10-Jun-2020 00:44:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_custom_field() in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\front-page.php:11
+Stack trace:
+#0 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Edgar\\...')
+#2 C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php(17): require('C:\\Users\\Edgar\\...')
+#3 {main}
+  thrown in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\front-page.php on line 11
+[11-Jun-2020 01:01:39 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\class-wp-hook.php on line 76
+[11-Jun-2020 01:01:39 UTC] PHP Stack trace:
+[11-Jun-2020 01:01:39 UTC] PHP   1. {main}() C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php:0
+[11-Jun-2020 01:01:39 UTC] PHP   2. require() C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php:17
+[11-Jun-2020 01:01:39 UTC] PHP   3. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php:13
+[11-Jun-2020 01:01:39 UTC] PHP   4. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-load.php:37
+[11-Jun-2020 01:01:39 UTC] PHP   5. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-config.php:75
+[11-Jun-2020 01:01:39 UTC] PHP   6. include() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-settings.php:508
+[11-Jun-2020 01:01:39 UTC] PHP   7. add_action() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\functions.php:16
+[11-Jun-2020 01:01:39 UTC] PHP   8. add_filter() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\plugin.php:404
+[11-Jun-2020 01:01:39 UTC] PHP   9. WP_Hook->add_filter() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\plugin.php:113
+[11-Jun-2020 01:01:39 UTC] PHP Warning:  Illegal offset type in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\class-wp-hook.php on line 78
+[11-Jun-2020 01:01:39 UTC] PHP Stack trace:
+[11-Jun-2020 01:01:39 UTC] PHP   1. {main}() C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php:0
+[11-Jun-2020 01:01:39 UTC] PHP   2. require() C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php:17
+[11-Jun-2020 01:01:39 UTC] PHP   3. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php:13
+[11-Jun-2020 01:01:39 UTC] PHP   4. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-load.php:37
+[11-Jun-2020 01:01:39 UTC] PHP   5. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-config.php:75
+[11-Jun-2020 01:01:39 UTC] PHP   6. include() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-settings.php:508
+[11-Jun-2020 01:01:39 UTC] PHP   7. add_action() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\functions.php:16
+[11-Jun-2020 01:01:39 UTC] PHP   8. add_filter() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\plugin.php:404
+[11-Jun-2020 01:01:39 UTC] PHP   9. WP_Hook->add_filter() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\plugin.php:113
+[11-Jun-2020 01:01:42 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\class-wp-hook.php on line 76
+[11-Jun-2020 01:01:42 UTC] PHP Stack trace:
+[11-Jun-2020 01:01:42 UTC] PHP   1. {main}() C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php:0
+[11-Jun-2020 01:01:42 UTC] PHP   2. require() C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php:17
+[11-Jun-2020 01:01:42 UTC] PHP   3. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php:13
+[11-Jun-2020 01:01:42 UTC] PHP   4. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-load.php:37
+[11-Jun-2020 01:01:42 UTC] PHP   5. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-config.php:75
+[11-Jun-2020 01:01:42 UTC] PHP   6. include() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-settings.php:508
+[11-Jun-2020 01:01:42 UTC] PHP   7. add_action() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\functions.php:16
+[11-Jun-2020 01:01:42 UTC] PHP   8. add_filter() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\plugin.php:404
+[11-Jun-2020 01:01:42 UTC] PHP   9. WP_Hook->add_filter() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\plugin.php:113
+[11-Jun-2020 01:01:42 UTC] PHP Warning:  Illegal offset type in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\class-wp-hook.php on line 78
+[11-Jun-2020 01:01:42 UTC] PHP Stack trace:
+[11-Jun-2020 01:01:42 UTC] PHP   1. {main}() C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php:0
+[11-Jun-2020 01:01:42 UTC] PHP   2. require() C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php:17
+[11-Jun-2020 01:01:42 UTC] PHP   3. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php:13
+[11-Jun-2020 01:01:42 UTC] PHP   4. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-load.php:37
+[11-Jun-2020 01:01:42 UTC] PHP   5. require_once() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-config.php:75
+[11-Jun-2020 01:01:42 UTC] PHP   6. include() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-settings.php:508
+[11-Jun-2020 01:01:42 UTC] PHP   7. add_action() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\functions.php:16
+[11-Jun-2020 01:01:42 UTC] PHP   8. add_filter() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\plugin.php:404
+[11-Jun-2020 01:01:42 UTC] PHP   9. WP_Hook->add_filter() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\plugin.php:113

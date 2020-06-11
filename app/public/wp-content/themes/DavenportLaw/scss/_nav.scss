@@ -1,27 +1,39 @@
+// TOPBAR
 .topbar {
   background-color:$gray;
   a {
     color:white;
+    text-decoration: none;
+    font-size:1rem;
+    transition:all .4s ease-in-out;
+    a:hover {
+      color:$primary;
+    }
   }
 }
 
+// NAV
 nav {
+  a.dropdown-item {
+    color:$primary;
+  }
+  .dropdown-toggle .dropdown-item {
+    color:$primary;
+  }
   letter-spacing:1px;
   background-color: white;
   .navbar-brand img {
     height:130px;
   }
   ul li a{
-    font-family: $raleway;
+    font-family: $open-sans;
     color:$primary;
-    font-weight:700;
+    font-weight:400;
     font-size:1.4rem;
-    transition:all .2s ease;
-      &:hover {
-       color:$gray;
-       border-bottom:3px solid $gray;
-       border-radius: 3px;
-     
+    transition:all .4s ease-in-out;
+    &:hover {
+      font-size:1.5rem;
+      color:$gray;
       }
   }
 }

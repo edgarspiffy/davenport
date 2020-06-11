@@ -23,23 +23,31 @@ footer p {
 .topbar {
   background-color: #292E33; }
   .topbar a {
-    color: white; }
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .4s ease-in-out; }
+    .topbar a a:hover {
+      color: #3A8860; }
 
 nav {
   letter-spacing: 1px;
   background-color: white; }
+  nav a.dropdown-item {
+    color: #3A8860; }
+  nav .dropdown-toggle .dropdown-item {
+    color: #3A8860; }
   nav .navbar-brand img {
     height: 130px; }
   nav ul li a {
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #3A8860;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.4rem;
-    transition: all .2s ease; }
+    transition: all .4s ease-in-out; }
     nav ul li a:hover {
-      color: #292E33;
-      border-bottom: 3px solid #292E33;
-      border-radius: 3px; }
+      font-size: 1.5rem;
+      color: #292E33; }
 
 .gavel {
   color: #3A8860;
@@ -75,15 +83,12 @@ body p, html p {
   letter-spacing: 0;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
-  color: #333;
-  padding-right: 30px;
-  padding-bottom: 10px; }
+  color: #333; }
 
 body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3, html h4, html h5, html h6 {
   font-family: "DM Serif Display", serif;
   font-size: 40px;
   line-height: 44px;
-  padding-bottom: 1rem;
   letter-spacing: 1px; }
 
 .my-header .overlay {
@@ -95,24 +100,37 @@ body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3,
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
 
+.my-header h1 {
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 2px; }
+
+.number-round h2 {
+  font-size: 30px; }
+
 .number-round .overlay {
   height: 100%;
   width: 100%;
   background-color: rgba(41, 46, 51, 0.9); }
 
-.number-round h3 {
+.number-round .circle {
   background: rgba(58, 136, 96, 0.6);
-  padding: 3rem 3rem;
+  padding: 1.2rem 1.2rem;
   border-radius: 50%;
-  background-size: 50px;
+  margin-bottom: 10px;
   color: white; }
+  .number-round .circle h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px; }
 
 .number-round p {
-  color: white; }
+  color: white;
+  padding: 0;
+  margin: 0; }
 
 .number-round img {
-  height: 75px;
-  padding-bottom: 10px; }
+  height: 40px; }
 
 .my-bg-gray-2 {
   background-color: #E5E8EE; }
@@ -142,40 +160,47 @@ body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3,
   transition: all .6s ease-in-out; }
   .bg-image-left {
     background-image: url("images/categories/left-statue.png");
-    background-position: center bottom; }
+    background-position: center center; }
   .bg-image-center {
     background-image: url("images/categories/worker-blue-2.jpg"); }
   .bg-image-right {
     background-image: url("images/categories/bg-white.jpg"); }
   .bg-image-worker-left {
-    background-image: url("images/categories/worker-blue.jpg"); }
+    background-image: url("images/categories/worker-blue.jpg");
+    background-position: center center; }
   .bg-image-worker-center {
     background-image: url("images/categories/gavil.png");
-    background-position: center center; }
+    background-position: center bottom; }
   .bg-image-worker-right {
     background-image: url("images/categories/worker-white.jpg"); }
   .bg-image h3 {
     color: white;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.09); }
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: inline-block; }
   .bg-image .overlay {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     transition: all .2s ease-in-out; }
     .bg-image .overlay:hover {
       background-color: rgba(58, 136, 96, 0.9); }
+  .bg-image .div-height {
+    height: 300px; }
 
 .footer-top form input, .footer-top form textarea {
   background-color: #B7B7B7; }
 
 .footer-top h4 {
   color: white;
-  font-size: 30px; }
+  font-size: 25px; }
 
 .footer-top ul {
-  list-style: none; }
+  list-style: none;
+  padding: 8px; }
   .footer-top ul li {
-    padding-bottom: 1rem;
+    padding-bottom: .8rem;
     color: white; }
   .footer-top ul i {
     font-size: 1.5rem; }
@@ -196,8 +221,9 @@ body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3,
   border-left: 1px solid #ededed; }
 
 @media only screen and (max-width: 768px) {
-  body .number-content {
-    border-top: 1px solid white; }
+  body .my-header h1 {
+    font-size: 28px;
+    line-height: 38px; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-size: 30px; }
   body nav .navbar-brand img {
@@ -207,4 +233,12 @@ body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3,
     font-size: 23px; }
   body .title-number {
     font-family: "Saira Extra Condensed", sans-serif;
-    font-size: 160px; } }
+    font-size: 160px; }
+  body .number-round .circle {
+    background: rgba(58, 136, 96, 0.6);
+    padding: 2.2rem 2.2rem;
+    border-radius: 50%; }
+  body .number-round img {
+    height: 50px; }
+  body .bg-image .div-height {
+    height: 80px; } }

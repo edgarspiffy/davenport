@@ -3,17 +3,16 @@ Theme Name: Sample
 Author: Sample
 Version: 1
  */
+
+
+@import "variables";
+@import "nav";
+@import "utilities";
+
  $soft:#ededed;
  $content-gray:#E5E8EE;
 
  
-
-@import "variables";
-
-@import "nav";
-@import "utilities";
-
-
 
 // GENERAL
 body,html {
@@ -23,55 +22,87 @@ p {
   font-size:18px;
   font-family: $open-sans;
   color:#333;
-  padding-right:30px;
-  padding-bottom:10px;
 }
   h1,h2,h3,h4,h5,h6 {
     font-family: $dm;
     font-size:40px;
     line-height: 44px;
-    padding-bottom:1rem;
+    // padding-bottom:1rem;
     letter-spacing: 1px;
   }
 }
 
+
+// Header
 .my-header {
   .overlay {
     height:100%;
     width:100%;
     background-color: rgba(0,0,0,.5); 
-  }
 
+  }
     h1, p{
       color:$white;
       text-shadow: 0 1px 2px rgba(0,0,0,.2);
     }
+    h1 {
+      font-size:50px;
+      line-height: 60px;
+      letter-spacing:2px;
+    }
 }
+
 
 // NUMBERS
 .number-round {
+  h2 {
+    font-size:30px;
+  }
   .overlay {
     height:100%;
     width:100%;
     background-color: rgba($gray,.9); 
   }
 
-  h3 {
+  .circle {
     background:rgba($primary,.6);
-    padding:3rem 3rem;
+    // padding:2.6rem 2rem;
+     padding:1.2rem 1.2rem;
     border-radius: 50%;
-    background-size:50px;
+    margin-bottom:10px;
     color:white;
+    h3 {
+      padding:0;
+      margin:0;
+
+      font-size:30px;
     }
+  }
 
   p {
     color:white;
+    padding:0;
+    margin:0;
   }
+
   img {
-    height:75px;
-    padding-bottom:10px;
+    // height:75px;
+    height:40px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .my-bg-gray-2 {
    background-color: $content-gray;
@@ -92,7 +123,7 @@ p {
 }
 
 .background-2 {
-   background: url('images/city.jpg');
+  background: url('images/city.jpg');
   width:100%;
   background-size: cover;
   background-position:center top;
@@ -118,7 +149,7 @@ p {
 
 
 
-
+// IMAGE SQARES
 .bg-image {
   background-size: cover;
   background-position:center top;
@@ -126,7 +157,7 @@ p {
 
   &-left {
     background-image: url('images/categories/left-statue.png');
-    background-position:center bottom;
+    background-position:center center;
   }
   &-center {
     background-image: url('images/categories/worker-blue-2.jpg');
@@ -136,26 +167,42 @@ p {
   }
   &-worker-left{
      background-image: url('images/categories/worker-blue.jpg');
+     background-position:center center;
   }
    &-worker-center{
      background-image: url('images/categories/gavil.png');
-     background-position:center center;
+     background-position:center bottom;
   }
    &-worker-right{
      background-image: url('images/categories/worker-white.jpg');
   }
+
   h3 {
     color:$white;
-    text-shadow: 0 1px 2px rgba(0,0,0,.09);
+    // text-shadow: 0 1px 2px rgba(0,0,0,0);
+    // background-color: rgba($primary,.9);
+    border-radius: 5px;
+    padding-left:1rem;
+    padding-right:1rem;
+    display:inline-block;
   }
   .overlay {
     height:100%;
     width:100%;
-    background-color: rgba(0,0,0,0.2); 
+    background-color: rgba($black,.5); 
     transition:all .2s ease-in-out;
+    // h3 {
+    //   background-color: rgba($primary,.9);
+    // }
     &:hover {
       background-color:rgba($primary,.9); 
+      // h3 {
+      //   background-color:rgba(0,0,0,0.0);
+      // }
     }
+  }
+  .div-height {
+    height:300px;
   }
 
 }
@@ -170,13 +217,15 @@ p {
 
   h4 {
     color:$white;
-    font-size:30px;
+    font-size:25px;
+    // padding-bottom:0;
   }
 
   ul {
     list-style: none;
+    padding:8px;
     li {
-      padding-bottom: 1rem;
+      padding-bottom: .8rem;
       color:$white;
     }
     i {

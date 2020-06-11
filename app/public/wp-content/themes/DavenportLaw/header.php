@@ -13,7 +13,7 @@
   </div>
 
 
-  <nav class="shadow-lg navbar navbar-expand-lg">
+  <nav style='min-height:16vh;' class="shadow-lg navbar navbar-expand-lg">
     <!-- Brand -->
     
     <a class="navbar-brand" href="<?php echo site_url();?>">

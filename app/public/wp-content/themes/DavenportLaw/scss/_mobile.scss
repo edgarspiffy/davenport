@@ -1,9 +1,12 @@
 
 @media only screen and (max-width: 768px) {
   body {
-    .number-content {
-      border-top:1px solid white;
+    .my-header {
+      h1 {font-size:28px;
+          line-height: 38px;
+      }
     }
+  
     h1,h2,h3,h4,h5,h6 {
       font-size:30px;
     }
@@ -16,12 +19,31 @@
     .title {
       font-family:$numbers-font;
       font-size:23px;
-
     }
     .title-number {
     font-family:$numbers-font;
     font-size:160px;
-
     }
+
+     .number-round {
+      .circle {
+      background:rgba($primary,.6);
+      padding:2.2rem 2.2rem;
+      border-radius: 50%;
+      }
+
+      img {
+        height:50px;
+      }
+    }
+
+    .bg-image {
+      .div-height {
+        height:80px;
+      }
+    }
+
+
+
   }
 }
