@@ -1,49 +1,98 @@
 
 @media only screen and (max-width: 768px) {
   body {
-    .my-header {
-      h1 {font-size:28px;
-          line-height: 38px;
-      }
-    }
-  
-    h1,h2,h3,h4,h5,h6 {
+     background:$background-color;
+  p {
+    font-family: $text-font;
+    font-size:16px;
+    color:$text-color;
+    line-height: 34px;
+    padding:0 12px;
+  }
+  h1 {
+    font-family:$heading-font;
+    font-size:30px;
+    color:$heading-color;
+    line-height:36px;
+    padding:0 12px;
+  }
+  h2 {
+    font-family:$heading-font;
+    font-size: 30px;
+    color:$heading-color;
+    line-height:36px;
+    padding:0 12px;
+  }
+  h3, h4, h5, h6 {
+    font-family:$heading-font;
+    font-size:24px;
+    color:$heading-color;
+    line-height:32px;
+    padding:0 12px;
+   }
+
+   nav {
+     .navbar-brand img {
+       height:90px;
+     }
+   }
+
+  .header {
+    height:500px;
+    .title h1 {
       font-size:30px;
     }
-    nav {
-      .navbar-brand img {
-      height:90px;
-      }
-    }
-
-    .title {
-      font-family:$numbers-font;
-      font-size:23px;
-    }
-    .title-number {
-    font-family:$numbers-font;
-    font-size:160px;
-    }
-
-     .number-round {
-      .circle {
-      background:rgba($primary,.6);
-      padding:2.2rem 2.2rem;
-      border-radius: 50%;
-      }
-
-      img {
-        height:50px;
-      }
-    }
-
-    .bg-image {
-      .div-height {
-        height:80px;
-      }
-    }
-
-
-
   }
+
+  //  Boxes
+  .boxes {
+    margin-top:-100px;
+    .box {
+      height:183px;
+      width: 137px;
+      margin-left:auto;
+      .box-content {
+        top:10px;
+        img {
+          display:none;
+        }
+        p {
+          font-size:14px;
+          line-height:20px;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+  .image-categories {
+    .category {
+      height:80px;
+    }
+  }
+
+
+
+
+
+.copy-2 {
+  img {
+    padding:0 12px;
+  }
+}
+
+
+
+
+
+
+
+  }  
 }

@@ -1,3 +1,7 @@
 app/public/node_modules
 app/public/wp-content/themes/DavenportLaw/node_modules
+app/public/wp-content/themes/DavenportLaw/images/
+app/public/wp-content/plugins/
+app/public/wp-content/mu-plugins/
+app/public/wp-content/ai1wm-backups/
 app/public/local.php

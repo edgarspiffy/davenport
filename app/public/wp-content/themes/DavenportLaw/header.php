@@ -8,10 +8,6 @@
 </head>
 <body  <?php body_class()?>>
 
-  <div class="topbar py-2 text-center text-md-right">
-    <a class='px-3' href="">Give Ashley a Call (310) 504-3989</a>
-  </div>
-
 
   <nav style='min-height:16vh;' class="shadow-lg navbar navbar-expand-lg">
     <!-- Brand -->

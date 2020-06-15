@@ -1,5 +1,5 @@
 <!-- SIDE NAV -->
-<section class='side-nav pl-4' >
+<section class='side-nav' >
         <?php
         $pageID = get_option('page_on_front');
         //STORING PARENT ID IN A VARIABLE IF NO EXIST PARENT DEFAULTS TO 0
@@ -31,7 +31,6 @@
               'title_li'=>NULL,
               'child_of'=>$findChildrenOf,
             ));?>
-
 
             </ul>
         <?php } ?>

@@ -123,3 +123,46 @@ Stack trace:
 [11-Jun-2020 01:01:42 UTC] PHP   7. add_action() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\functions.php:16
 [11-Jun-2020 01:01:42 UTC] PHP   8. add_filter() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\plugin.php:404
 [11-Jun-2020 01:01:42 UTC] PHP   9. WP_Hook->add_filter() C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\plugin.php:113
+[11-Jun-2020 22:26:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_ur() in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\template-parts\circles.php:49
+Stack trace:
+#0 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template.php(725): require()
+#1 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template.php(672): load_template('C:\\Users\\Edgar\\...', false)
+#2 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\front-page.php(22): get_template_part('template-parts/...')
+#4 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Edgar\\...')
+#5 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Edgar\\...')
+#6 C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php(17): require('C:\\Users\\Edgar\\...')
+ in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\template-parts\circles.php on line 49
+[15-Jun-2020 16:51:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function custom_field() in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\front-page.php:137
+Stack trace:
+#0 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Edgar\\...')
+#2 C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php(17): require('C:\\Users\\Edgar\\...')
+#3 {main}
+  thrown in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\front-page.php on line 137
+[15-Jun-2020 16:53:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function custom_field() in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\front-page.php:137
+Stack trace:
+#0 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Edgar\\...')
+#2 C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php(17): require('C:\\Users\\Edgar\\...')
+#3 {main}
+  thrown in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\front-page.php on line 137
+[15-Jun-2020 17:47:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_uri() in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\template-parts\category-images.php:6
+Stack trace:
+#0 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template.php(725): require()
+#1 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template.php(672): load_template('C:\\Users\\Edgar\\...', false)
+#2 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\front-page.php(54): get_template_part('template-parts/...')
+#4 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Edgar\\...')
+#5 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Edgar\\...')
+#6 C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php(17): require('C:\\Users\\Edgar in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\template-parts\category-images.php on line 6
+[15-Jun-2020 17:47:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_uri() in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\template-parts\category-images.php:6
+Stack trace:
+#0 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template.php(725): require()
+#1 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template.php(672): load_template('C:\\Users\\Edgar\\...', false)
+#2 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\front-page.php(54): get_template_part('template-parts/...')
+#4 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Edgar\\...')
+#5 C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Edgar\\...')
+#6 C:\Users\Edgar\Local Sites\davenportlaw\app\public\index.php(17): require('C:\\Users\\Edgar in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\template-parts\category-images.php on line 6
+[15-Jun-2020 18:43:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\Edgar\Local Sites\davenportlaw\app\public\wp-content\themes\DavenportLaw\page.php on line 8

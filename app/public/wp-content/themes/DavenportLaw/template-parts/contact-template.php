@@ -38,10 +38,11 @@
     </div>
   </div>
               
-  <div class="form-row  pb-3">
+  <div class="form-row">
     <div class="col">
       <div class='text-left'>
-          <button class='btn my-btn-1 text-right px-3 btn-block btn-md-inline-block text-center'>Send Message</button>
+          <button class='btn btn-white text-center'>Send Message</button>
+          <a href='tel:3105043989' class='btn btn-transparent text-center'><i class="fas fa-mobile-alt"></i> Give Ashley A Call</a>
       </div>
     </div>  
   </div>

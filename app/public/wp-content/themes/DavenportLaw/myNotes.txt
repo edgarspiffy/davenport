@@ -1,11 +1,4 @@
-Google Fonts closes to logo are
-Jacques Francois
-Ribeye Marrow
-diplomata sc
-diplomatar
-kumar one outline
 
-abril fatface
 
 blue collar - unlawful wages 
 white collar -severance
@@ -18,25 +11,3 @@ https://www.pucherlaw.com/
 https://savagelawpc.com/
 https://www.ilawyermarketing.com/portfolio/
 
-
-
-@media only screen and (max-width: 768px) {
-  body {
-    .number-round {
-      .circle {
-
-     background:rgba($primary,.6);
-     padding:2.2rem 1.8rem;
-     border-radius: 50%;
-    }
-
-      img {
-        height:50px;
-      }
-    }
-
-
-  nav 
-
-  }
-}

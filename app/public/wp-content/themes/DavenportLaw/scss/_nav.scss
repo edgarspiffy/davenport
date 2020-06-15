@@ -1,47 +1,14 @@
 // TOPBAR
 .topbar {
-  background-color:$gray;
+  // background-color:$gray;
   a {
     color:white;
     text-decoration: none;
     font-size:1rem;
     transition:all .4s ease-in-out;
-    a:hover {
-      color:$primary;
-    }
+    // a:hover {
+    //   color:$primary;
+    // }
   }
 }
 
-// NAV
-nav {
-  a.dropdown-item {
-    color:$primary;
-  }
-  .dropdown-toggle .dropdown-item {
-    color:$primary;
-  }
-  letter-spacing:1px;
-  background-color: white;
-  .navbar-brand img {
-    height:130px;
-  }
-  ul li a{
-    font-family: $open-sans;
-    color:$primary;
-    font-weight:400;
-    font-size:1.4rem;
-    transition:all .4s ease-in-out;
-    &:hover {
-      font-size:1.5rem;
-      color:$gray;
-      }
-  }
-}
-
-// BURGER NAV
-.gavel {
-  color:$primary;
-  border-bottom:2px solid $primary;
-  padding:.4rem !important;
-  border-top:2px solid $primary;
-}
